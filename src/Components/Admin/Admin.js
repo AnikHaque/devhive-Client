@@ -21,7 +21,6 @@ const Admin = () => {
           config
         );
         setAdminData(data);
-        // console.log(data);
       };
       user();
     } catch (error) {
@@ -36,8 +35,7 @@ const Admin = () => {
     e.preventDefault();
     const form = e.target;
     const oldPass = form.oldPass.value;
-    const newPass = form.newPass.value;
-    // console.log(oldPass, newPass);
+    const newPass = form.newPass.value
 
     const currentPassword = oldPass;
     const newPassword = newPass;
@@ -45,7 +43,6 @@ const Admin = () => {
 
     const data = { currentPassword, newPassword };
     const headers = { Authorization: `Bearer ${jwtToken}` };
-    // console.log(data);
     try {
       const response = await axios.patch(
         `https://devhiveserver.vercel.app/admin/${localStorage.getItem(
