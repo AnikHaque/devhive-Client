@@ -8,7 +8,6 @@ const AdminRoute = ({ children }) => {
   const userLoading = useSelector((state) => state.login.userLoading);
   const user = useSelector((state) => state.login.userData);
   const [admin, loadingAdmin] = useAdmin();
-  //   const [isAdminLoading, setIsAdminLoading] = useState(true);
   const location = useLocation();
 
   if (userLoading || loadingAdmin) {
