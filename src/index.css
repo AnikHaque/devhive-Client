@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    border-color: gainsboro;
+}
+
+.devhiveprimarybtn {
+    @apply block w-full text-[white] rounded bg-primary px-12 py-3 text-sm font-medium shadow hover:bg-secondary hover:text-[black];
+}

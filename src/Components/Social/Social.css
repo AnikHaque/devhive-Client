@@ -1,0 +1,43 @@
+.social-icon svg {
+  width: 36px;
+  height: 36px;
+  margin-right: 23px;
+  padding: 7px;
+  border-radius: 100%;
+}
+.social-icon svg:hover {
+  background: #efeff0;
+}
+.social-icon svg {
+  color: #74767e;
+}
+.DevhiveClients-text {
+  font-size: 15px;
+  margin-left: 15px;
+  color: #b5b6ba;
+}
+.DevhiveClients {
+  font-size: 21px;
+  color: #7a7d85;
+  font-weight: bold;
+}
+.button-writing {
+  display: flex;
+  align-items: center;
+  padding: 6px 6px;
+  /* background: gray; */
+  border-radius: 20px;
+}
+.social-icons button {
+  margin-right: 25px;
+}
+.social-icons button:hover {
+  background-color: #f5f5f5;
+}
+.button-writing span {
+  margin-left: 13px;
+}
+.button-dolar {
+  padding: 6px 11px;
+  border-radius: 20px;
+}

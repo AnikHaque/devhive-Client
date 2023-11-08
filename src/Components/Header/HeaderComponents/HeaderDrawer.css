@@ -1,0 +1,4 @@
+/* turn of right scrolling bar show of headerdrawer class */
+.HeaderDrawer::-webkit-scrollbar {
+  display: none;
+}

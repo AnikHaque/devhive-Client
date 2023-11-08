@@ -1,0 +1,16 @@
+.line::after{
+    border-top: 2px solid #c5c6c9;
+    content: "";
+    padding: 0 0 8px;
+    position: absolute;
+    right: 50%;
+    top: 71%;
+    transform: translateX(50%);
+    width: 48px;
+    transition: .3s;
+}
+.line:hover::after {
+    border-color: hsl(var(--p));
+    padding: 0 20px 8px;
+    width: 100px;
+}

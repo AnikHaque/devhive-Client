@@ -1,0 +1,11 @@
+.chatScroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+.chatScroll::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+.chatScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,11 @@
+.footer-title {
+  color: #464145;
+  font-weight: bold;
+}
+.footer-color-text a {
+  color: #74767e;
+  font: 400 16px/24px Helvetica, Arial, sans-serif;
+}
+footer {
+  border-bottom: 1px solid #e4e5e7;
+}
