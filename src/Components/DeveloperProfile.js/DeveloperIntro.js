@@ -3,10 +3,8 @@ import { useSelector } from "react-redux";
 import { useLoaderData } from "react-router-dom";
 
 const DeveloperIntro = () => {
-  // const developerProfile = useLoaderData();
   const userData = useSelector((state) => state.login.userData);
-  // const {about} = developerProfile;
-  // console.log(developerProfile)
+
   return (
     <div>
       <div class="p-16 flex ">
