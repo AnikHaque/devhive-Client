@@ -56,15 +56,7 @@ const DeveloperIntro = () => {
             <p class="text-gray-600 font-medium text-md mb-2">
             Hi! I'm a web designer and developer with over 12 years of experience and have completed over 150 projects using HTML, CSS, JavaScript, WordPress, and Drupal.
             </p>{" "}
-            {/* <p class="text-gray-600 font-medium text-md mb-2">
-            I've got a master's degree in National Academy of graphic arts in Kiev (graphic design faculty).
-            </p>
-            <p class="text-gray-600 font-medium text-md mb-2">
-            13+ years work experience in IT-companies & advertising agencies
-            </p>
-            <p class="text-gray-600 font-medium text-md mb-2">
-            Artistic education and great work experience as illustrator
-            </p> */}
+         
             
         </div>
       </div>
